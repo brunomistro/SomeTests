@@ -1,0 +1,22 @@
+body{
+    font-style: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+div{
+    height: 25vh;
+    text-align: center;
+}
+
+.dv1{
+    background-color: red;
+}
+
+.dv2{
+    background-color: orange;
+}
+
+.dv3{
+    background-color: yellow;
+}
