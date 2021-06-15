@@ -5,18 +5,55 @@ body{
 }
 
 div{
-    height: 25vh;
-    text-align: center;
+    display: flex;
+    margin: 0;
+}
+
+p{
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .dv1{
+    height: 25vh;
+    text-align: center;
     background-color: red;
+    justify-content: center;
+    align-items: center;
 }
 
 .dv2{
+    height: 25vh;
     background-color: orange;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .dv3{
+    height: 13vh;
+    justify-content: space-between;
+}
+
+.info1{
     background-color: yellow;
+}
+
+.info2{
+    background-color: green;
+    display: flex;
+    align-items: center;
+}
+
+.dv4{
+    height: 13vh;
+}
+
+.info3{
+    background-color: blue;
+    width: 50%;
+}
+
+.info4{
+    background-color: purple;
+    width: 50%;
 }
