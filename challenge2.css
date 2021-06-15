@@ -29,8 +29,18 @@ img{
     max-width: 100%;
 }
 
+p{
+    margin: 0;
+}
+
 .text{
     display: flex;
     justify-content: space-between;
-    margin: 5px 10px;
+    margin: 5px 0px;
+}
+
+.grid{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 15px;
 }

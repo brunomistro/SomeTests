@@ -1,17 +1,17 @@
 const ul = document.getElementById('authors');
 const url = 'https://randomuser.me/api/?results=10';
 
-// const url = 'https://randomuser.me/api';
+const url2 = 'https://randomuser.me/api';
 
-// let data = {
-//     name: 'Sara'
-// }
+let data = {
+    name: 'Sara'
+}
 
-// var request = new Request(url, {
-//     method: 'POST',
-//     body: data,
-//     headers: new Headers()
-// });
+var request = new Request(url2, {
+    method: 'POST',
+    body: data,
+    headers: new Headers()
+});
 
 function createNode(element) {
     return document.createElement(element);
@@ -39,3 +39,7 @@ fetch(url)
 .catch(function(error) {
   console.log(error);
 });
+
+fetch(request)
+.then((resp) => resp.text())
+.then(function(data){console.log(data)})
